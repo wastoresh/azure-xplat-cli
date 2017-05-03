@@ -111,7 +111,7 @@ popd
 
 echo Running npm install...
 pushd %TEMP_REPO%
-call bin/npm.cmd install --production
+call bin/npm.cmd install --production --verbose
 echo.
 echo if YOU SEE A FAILURE AT THE BOTTOM OF THE NPM OUTPUT:
 echo If you do not have Node.js installed on this local machine, the Azure
